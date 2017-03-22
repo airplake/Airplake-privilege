@@ -4,7 +4,7 @@ An ExpressJS interface for the privilege module.
 ## Install
 
 ```bash
-npm install airplake-privilege
+npm install airplake-privilege --save
 ```
 
 
