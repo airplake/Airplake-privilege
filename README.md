@@ -57,3 +57,5 @@ const airplakePrivilege = require('airplake-privilege')({
 app.use(airplakePrivilege); // 需要放在所有路由之前
 
 ```
+## demo
+[Airplake-privilege-demo](https://github.com/503945930/Airplake-privilege-demo)
