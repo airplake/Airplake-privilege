@@ -7,6 +7,12 @@ An ExpressJS interface for the privilege module.
 npm install airplake-privilege --save
 ```
 
+or
+
+```bash
+yarn add airplake-privilege
+```
+
 
 ## Example Usage
 
