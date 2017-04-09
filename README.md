@@ -29,7 +29,7 @@ let config = {
       'my:test:path:item': [ 'get' ],
       'my:other:item': [ 'get' ],
       'my:other:list': [ 'get' ]
-    }
+    },
     'writer': {
       'my:test:path:list': [ 'get' ],
       'my:test:path:item': [ 'get', 'post', 'put', 'delete' ],
