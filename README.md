@@ -42,10 +42,9 @@ let config = {
 
 const app  = require('express')()
 const airplakePrivilege = require('airplake-privilege')({
-      config:config,
-      contextToRoles: (ctx, done) => {
-        done(null, [ctx.headers['x-role']]);//这里需要将当前角色取出来
-      }
+  config: config,
+  contextToRoles: (ctx, done) => {
+    done(null, [ctx.headers['x-role']])// 这里需要将当前角色取出来
   }
 });
 
